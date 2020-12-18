@@ -1,0 +1,93 @@
+body {
+    background-color: #85cff7;
+    background-image: url("https://images4.alphacoders.com/801/thumb-1920-801099.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#list_section {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin: 0px auto;
+    padding: 20px;
+    font-family: "Comic Sans MS","sans-serif";
+    border: white;
+    text-shadow: 8px 10px 3px;
+
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    list-style-type: none;
+    width: 20%;
+    margin: 0px auto;
+    border-radius: 3px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: "Comic Sans MS","fantasy","Rage Italic";
+}
+
+p {
+    background-color: #fff;
+    color: #666;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px auto 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.afficher1 {
+    background-color: lime;
+    color: black;
+}
+
+.afficher2 {
+    background-color: turquoise;
+    color: black;
+}
+.afficher3 {
+    background-color: beige;
+    color: black;
+}
+
+
+input[type='text'] {
+    font-size: 12px;
+    padding: 6px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+input[type='submit'] {
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+}
+
+#newItemButton {
+    display: none;
+}
+
+#itemField {
+    margin-top: 60px;
+    width: 10%;
+}
+
+img {
+    border: 1px solid yellow;
+    border-radius: 8px ;
+}
