@@ -11,7 +11,7 @@ $(function() {
 
 
 $(document).ready(function(){
-    //Lors d'un clic sur le div...
+    //Lors d'un clic sur l'img...
     $("img").click(function(){
         //...On inverse les classes de li
         $("li").toggleClass("afficher cacher");
